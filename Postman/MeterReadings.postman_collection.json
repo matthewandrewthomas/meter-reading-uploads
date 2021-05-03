@@ -1,0 +1,38 @@
+{
+	"info": {
+		"_postman_id": "f3a32466-f28f-4e2d-bd9b-a083a369a36a",
+		"name": "MeterReadings",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://localhost:5000/meter-reading-uploads",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "file",
+							"type": "file",
+							"src": "/C:/Users/matt_/source/repos/meter-reading-uploads/Postman/Meter_Reading.csv"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:5000/meter-reading-uploads",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"meter-reading-uploads"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
